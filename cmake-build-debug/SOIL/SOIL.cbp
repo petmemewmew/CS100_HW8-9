@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SOIL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_party\;CMake Files\third_party\SOIL\;CMake Files\third_party\freeglut\;CMake Files\third_party\freeglut\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libSOIL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 SOIL"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libSOIL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 SOIL/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/image_dxt.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/image_helper.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/soil.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/stb_image_aug.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\SOIL\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/FreeGLUTConfig.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/config.h.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/freeglut.pc.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/freeglut.rc.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_version.h.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,7 @@
+﻿  Explosion.cpp
+c1xx : fatal error C1083: 无法打开源文件: “D:\AA-Study\2022-Spring\CS100\CS100-HW89\src\PartForYou\GameObjects\Explosion.cpp”: No such file or directory
+  GameObjects.cpp
+c1xx : fatal error C1083: 无法打开源文件: “D:\AA-Study\2022-Spring\CS100\CS100-HW89\src\PartForYou\GameObjects\GameObjects.cpp”: No such file or directory
+  Star.cpp
+c1xx : fatal error C1083: 无法打开源文件: “D:\AA-Study\2022-Spring\CS100\CS100-HW89\src\PartForYou\GameObjects\Star.cpp”: No such file or directory
+  正在生成代码...

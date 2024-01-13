@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Dawnbreaker"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\third_party\;CMake Files\third_party\SOIL\;CMake Files\third_party\freeglut\;CMake Files\third_party\freeglut\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PartForYou">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libPartForYou.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 PartForYou"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PartForYou/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libPartForYou.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 PartForYou/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProvidedFramework">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libProvidedFramework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProvidedFramework"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProvidedFramework/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libProvidedFramework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProvidedFramework/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Explosion">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libExplosion.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Explosion"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Explosion/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libExplosion.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Explosion/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Player">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libPlayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Player"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Player/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libPlayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Player/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlueBullet">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libBlueBullet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlueBullet"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BlueBullet/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libBlueBullet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 BlueBullet/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Star">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libStar.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Star"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Star/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libStar.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Star/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Meteor">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libMeteor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Meteor"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Meteor/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libMeteor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Meteor/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Enemy">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libEnemy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Enemy"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Enemy/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libEnemy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Enemy/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RedBullet">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libRedBullet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 RedBullet"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RedBullet/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libRedBullet.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 RedBullet/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Goodie">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libGoodie.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Goodie"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Goodie/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libGoodie.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Goodie/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dawnbreaker">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/bin/Dawnbreaker.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dawnbreaker"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Dawnbreaker/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/bin/Dawnbreaker.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 Dawnbreaker/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libSOIL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 SOIL"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libSOIL.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 SOIL/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/SOIL/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/bin/libfreeglut.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFREEGLUT_EXPORTS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 freeglut"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/bin/libfreeglut.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFREEGLUT_EXPORTS"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 freeglut/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut_static">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libfreeglut_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFREEGLUT_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 freeglut_static"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="freeglut_static/fast">
+				<Option output="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/lib/libfreeglut_static.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFREEGLUT_STATIC"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DWINVER=0x0601"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include"/>
+					<Add directory="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 freeglut_static/fast"/>
+					<CompileFile command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/AA-Application/CLion 2021.3.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-debug/freeglut.rc">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Alphatron.cpp">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Alphatron.h">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Blue_Bullet.cpp">
+			<Option target="BlueBullet"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Blue_Bullet.h">
+			<Option target="BlueBullet"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Dawnbreaker.cpp">
+			<Option target="Player"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Dawnbreaker.h">
+			<Option target="Player"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Enemy.cpp">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Enemy.h">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Explosion.cpp">
+			<Option target="Explosion"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Explosion.h">
+			<Option target="Explosion"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/GameObjects.cpp">
+			<Option target="PartForYou"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/GameObjects.h">
+			<Option target="PartForYou"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/GameWorld.cpp">
+			<Option target="PartForYou"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/GameWorld.h">
+			<Option target="PartForYou"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Goodie.cpp">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Goodie.h">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/HP_Restore_Goodie.cpp">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/HP_Restore_Goodie.h">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Meteor.cpp">
+			<Option target="Meteor"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Meteor.h">
+			<Option target="Meteor"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Meteor_Goodie.cpp">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Meteor_Goodie.h">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Omegatron.cpp">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Omegatron.h">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Power_Up_Goodie.cpp">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Power_Up_Goodie.h">
+			<Option target="Goodie"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Red_Bullet.cpp">
+			<Option target="BlueBullet"/>
+			<Option target="RedBullet"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Red_Bullet.h">
+			<Option target="RedBullet"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Sigmatron.cpp">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Sigmatron.h">
+			<Option target="Enemy"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Star.cpp">
+			<Option target="Star"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/PartForYou/Star.h">
+			<Option target="Star"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/GameManager.cpp">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/GameManager.h">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/ObjectBase.cpp">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/ObjectBase.h">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/SpriteManager.cpp">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/SpriteManager.h">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/WorldBase.cpp">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/ProvidedFramework/WorldBase.h">
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/main.cpp">
+			<Option target="Dawnbreaker"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/src/utils.h">
+			<Option target="PartForYou"/>
+			<Option target="ProvidedFramework"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/image_dxt.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/image_helper.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/soil.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/src/stb_image_aug.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include/GL/freeglut.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include/GL/freeglut_ext.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include/GL/freeglut_std.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/include/GL/freeglut_ucall.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_callback_macros.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_callbacks.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_cursor.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_display.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_ext.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_font.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_font_data.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_gamemode.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_geometry.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_gl2.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_gl2.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_init.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_init.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_input_devices.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_internal.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_joystick.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_main.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_menu.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_misc.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_overlay.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_spaceball.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_state.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_stroke_mono_roman.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_stroke_roman.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_structure.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_teapot.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_teapot_data.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_videoresize.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_window.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_cursor_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_display_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_ext_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_gamemode_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_init_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_input_devices_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_internal_mswin.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_joystick_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_main_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_menu_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_spaceball_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_state_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_structure_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/mswin/fg_window_mswin.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/util/xparsegeometry_repl.c">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/util/xparsegeometry_repl.h">
+			<Option target="freeglut"/>
+			<Option target="freeglut_static"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/SOIL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\SOIL\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/FreeGLUTConfig.cmake.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/config.h.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/freeglut.pc.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/freeglut.rc.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\"/>
+		</Unit>
+		<Unit filename="D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_version.h.in">
+			<Option virtualFolder="CMake Files\third_party\freeglut\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

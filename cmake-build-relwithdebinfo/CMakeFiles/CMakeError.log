@@ -1,0 +1,53 @@
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/AA-Application/CLion 2021.3.2/bin/ninja/win/ninja.exe cmTC_70307 && [1/2] Building C object CMakeFiles/cmTC_70307.dir/HAVE_SYS_IOCTL_H.c.obj
+FAILED: CMakeFiles/cmTC_70307.dir/HAVE_SYS_IOCTL_H.c.obj 
+"D:\AA-Application\CLion 2021.3.2\bin\mingw\bin\gcc.exe"   -Wall -pedantic -o CMakeFiles/cmTC_70307.dir/HAVE_SYS_IOCTL_H.c.obj -c D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c:2:10: fatal error: sys/ioctl.h: No such file or directory
+    2 | #include <sys/ioctl.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/AA-Application/CLion 2021.3.2/bin/ninja/win/ninja.exe cmTC_5a42b && [1/2] Building C object CMakeFiles/cmTC_5a42b.dir/HAVE_USBHID_H.c.obj
+FAILED: CMakeFiles/cmTC_5a42b.dir/HAVE_USBHID_H.c.obj 
+"D:\AA-Application\CLion 2021.3.2\bin\mingw\bin\gcc.exe"   -Wall -pedantic -o CMakeFiles/cmTC_5a42b.dir/HAVE_USBHID_H.c.obj -c D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo/CMakeFiles/CheckIncludeFiles/HAVE_USBHID_H.c
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo/CMakeFiles/CheckIncludeFiles/HAVE_USBHID_H.c:2:10: fatal error: usbhid.h: No such file or directory
+    2 | #include <usbhid.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/AA-Application/CLion 2021.3.2/bin/ninja/win/ninja.exe cmTC_8baae && [1/2] Building C object CMakeFiles/cmTC_8baae.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_8baae.exe
+FAILED: cmTC_8baae.exe 
+cmd.exe /C "cd . && "D:\AA-Application\CLion 2021.3.2\bin\mingw\bin\gcc.exe" -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry  CMakeFiles/cmTC_8baae.dir/CheckFunctionExists.c.obj -o cmTC_8baae.exe -Wl,--out-implib,libcmTC_8baae.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+D:\AA-Application\CLion 2021.3.2\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_8baae.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `XParseGeometry'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+

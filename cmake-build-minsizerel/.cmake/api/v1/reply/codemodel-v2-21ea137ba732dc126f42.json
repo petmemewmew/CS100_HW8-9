@@ -1,0 +1,239 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-MinSizeRel-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-MinSizeRel-1c74ae2d6d71885590e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dawnbreaker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BlueBullet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlueBullet-MinSizeRel-01b8566a212ca22a1690.json",
+					"name" : "BlueBullet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawnbreaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawnbreaker-MinSizeRel-12ab1f413af36f7640ed.json",
+					"name" : "Dawnbreaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Enemy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Enemy-MinSizeRel-c60c973c2cddae4c72ec.json",
+					"name" : "Enemy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Explosion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Explosion-MinSizeRel-158746dac90ebeb0f85b.json",
+					"name" : "Explosion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Goodie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Goodie-MinSizeRel-ba397bcd88e4b3a911fa.json",
+					"name" : "Goodie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Meteor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Meteor-MinSizeRel-4f5cda30a39fed9e0d5f.json",
+					"name" : "Meteor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PartForYou::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PartForYou-MinSizeRel-cf1f3905d41b6dd54033.json",
+					"name" : "PartForYou",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Player::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Player-MinSizeRel-c1d84916c72d8d328637.json",
+					"name" : "Player",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProvidedFramework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProvidedFramework-MinSizeRel-29fb4141860770a9e2ff.json",
+					"name" : "ProvidedFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RedBullet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RedBullet-MinSizeRel-2f15d193f068ae745ebd.json",
+					"name" : "RedBullet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-MinSizeRel-042c3ac2ca05f2e2f47b.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Star::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Star-MinSizeRel-12e7d1e353a0573bc14d.json",
+					"name" : "Star",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-MinSizeRel-1a5e64aa3d758e324e73.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-MinSizeRel-a1b344621a610a78aa7f.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-minsizerel",
+		"source" : "D:/AA-Study/2022-Spring/CS100/CS100-HW89"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

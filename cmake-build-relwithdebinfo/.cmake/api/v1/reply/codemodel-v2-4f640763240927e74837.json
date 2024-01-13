@@ -1,0 +1,239 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"build" : "SOIL",
+					"jsonFile" : "directory-SOIL-RelWithDebInfo-2b7609f4db92a4d2e04c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "third_party/SOIL",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-freeglut-RelWithDebInfo-6c76117bc9432e743e2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third_party/freeglut",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Dawnbreaker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SOIL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BlueBullet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlueBullet-RelWithDebInfo-e34ccd73815e3b7cded0.json",
+					"name" : "BlueBullet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Dawnbreaker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Dawnbreaker-RelWithDebInfo-ccc9fc6d584a5051258a.json",
+					"name" : "Dawnbreaker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Enemy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Enemy-RelWithDebInfo-3ce4b202cd1a9bed9ccd.json",
+					"name" : "Enemy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Explosion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Explosion-RelWithDebInfo-7e792ae14ae81864b796.json",
+					"name" : "Explosion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Goodie::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Goodie-RelWithDebInfo-7253f2a3a882cfcbc95e.json",
+					"name" : "Goodie",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Meteor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Meteor-RelWithDebInfo-37d93a83951fb02ed51e.json",
+					"name" : "Meteor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PartForYou::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PartForYou-RelWithDebInfo-6d293dc15d1f346e0b83.json",
+					"name" : "PartForYou",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Player::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Player-RelWithDebInfo-3e71b460f60996d6b0f4.json",
+					"name" : "Player",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ProvidedFramework::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ProvidedFramework-RelWithDebInfo-9b1060709f9ddd7cb8d3.json",
+					"name" : "ProvidedFramework",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RedBullet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RedBullet-RelWithDebInfo-3614fcebb59c204e95a8.json",
+					"name" : "RedBullet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SOIL::@745e8b768a24c48fa97d",
+					"jsonFile" : "target-SOIL-RelWithDebInfo-c4b4d97699b8556cd77d.json",
+					"name" : "SOIL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Star::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Star-RelWithDebInfo-2e85423c48c9aca0e542.json",
+					"name" : "Star",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut-RelWithDebInfo-99d47d6fc074aba4738a.json",
+					"name" : "freeglut",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@9f489802bb4ec236f2d4",
+					"jsonFile" : "target-freeglut_static-RelWithDebInfo-2e24a0233b160b5596a2.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-relwithdebinfo",
+		"source" : "D:/AA-Study/2022-Spring/CS100/CS100-HW89"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

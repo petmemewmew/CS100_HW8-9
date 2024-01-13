@@ -1,0 +1,10 @@
+^D:\AA-STUDY\2022-SPRING\CS100\CS100-HW89\BUILD\CMAKEFILES\04B29FEAF7AEC6FFDCEE2DE0E508522A\GENERATE.STAMP.RULE
+setlocal
+D:\AA-Application\bin\cmake.exe -SD:/AA-Study/2022-Spring/CS100/CS100-HW89 -BD:/AA-Study/2022-Spring/CS100/CS100-HW89/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/AA-Study/2022-Spring/CS100/CS100-HW89/build/Dawnbreaker.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

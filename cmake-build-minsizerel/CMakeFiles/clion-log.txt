@@ -1,0 +1,4 @@
+"D:\AA-Application\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=MinSizeRel "-DCMAKE_MAKE_PROGRAM=D:/AA-Application/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja D:\AA-Study\2022-Spring\CS100\CS100-HW89
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/AA-Study/2022-Spring/CS100/CS100-HW89/cmake-build-minsizerel

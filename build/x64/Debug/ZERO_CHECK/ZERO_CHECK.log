@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake is re-running because D:/AA-Study/2022-Spring/CS100/CS100-HW89/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/AA-Study/2022-Spring/CS100/CS100-HW89/CMakeLists.txt'
+    is newer than 'D:/AA-Study/2022-Spring/CS100/CS100-HW89/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19043.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/AA-Study/2022-Spring/CS100/CS100-HW89/build

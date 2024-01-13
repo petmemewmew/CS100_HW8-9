@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+D:/AA-Application/share/cmake-3.23/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/AA-Application/share/cmake-3.23/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CheckCCompilerFlag.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CheckFunctionExists.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CheckIncludeFileCXX.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CheckIncludeFiles.cmake
+D:/AA-Application/share/cmake-3.23/Modules/CheckTypeSize.cmake
+D:/AA-Application/share/cmake-3.23/Modules/FindOpenGL.cmake
+D:/AA-Application/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+D:/AA-Application/share/cmake-3.23/Modules/FindPackageMessage.cmake
+D:/AA-Application/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+D:/AA-Application/share/cmake-3.23/Modules/Internal/CheckCompilerFlag.cmake
+D:/AA-Application/share/cmake-3.23/Modules/Internal/CheckFlagCommonConfig.cmake
+D:/AA-Application/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake
+D:/AA-Application/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/CMakeLists.txt
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/FreeGLUTConfig.cmake.in
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/config.h.in
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/freeglut.pc.in
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/freeglut.rc.in
+D:/AA-Study/2022-Spring/CS100/CS100-HW89/third_party/freeglut/src/fg_version.h.in
